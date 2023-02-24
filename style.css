@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.selo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    color:white;
+    text-shadow: 1px 1px 6px black;
+    box-shadow: 1px 1px 20px black;
+    background-color: rgb(36, 86, 223);
+    width:400px;
+    height: 70px;
+    transform: rotate(-40deg);
+    position: fixed;
+    top: 50px;
+    left: -100px;
+}
+
+.letra {
+    border: 1px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 85px;
+    padding-left: 85px;
+}
